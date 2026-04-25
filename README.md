@@ -187,7 +187,7 @@ grep -w -n world newfile
 <img width="725" height="104" alt="image" src="https://github.com/user-attachments/assets/47b2e885-3a95-4a0e-83ce-2a933e4f8ed3" />
 
 
-cat < newfile 
+cat > newfile 
 ```
 Hello world
 hello world
@@ -197,7 +197,11 @@ Linux is best in this World
 ^d
 ```
 
-cat > newfile
+
+<img width="660" height="174" alt="image" src="https://github.com/user-attachments/assets/9c5da880-5ac2-4545-b64e-e2874a557e8c" />
+
+
+cat < newfile
 ```
 Hello world
 hello world
@@ -210,15 +214,21 @@ egrep -w 'Hello|hello' newfile
 ## OUTPUT
 
 
+<img width="660" height="107" alt="image" src="https://github.com/user-attachments/assets/50e0777f-a1b8-4212-bd7a-09971eb3263f" />
+
 
 egrep -w '(H|h)ello' newfile 
 ## OUTPUT
 
 
+<img width="660" height="130" alt="image" src="https://github.com/user-attachments/assets/6038efcd-65f3-4c18-8e1d-8a68d0ed13d6" />
+
 
 egrep -w '(H|h)ell[a-z]' newfile 
 ## OUTPUT
 
+
+<img width="660" height="129" alt="image" src="https://github.com/user-attachments/assets/131906a4-069e-44d7-93a8-418e153f6eec" />
 
 
 
@@ -226,28 +236,42 @@ egrep '(^hello)' newfile
 ## OUTPUT
 
 
+<img width="660" height="99" alt="image" src="https://github.com/user-attachments/assets/5e51ea2f-0a75-4d04-9360-dac013ec2ae6" />
+
 
 egrep '(world$)' newfile 
 ## OUTPUT
 
+
+<img width="660" height="128" alt="image" src="https://github.com/user-attachments/assets/b9233b6d-966f-4ba8-8508-7b92f2d1f474" />
 
 
 egrep '(World$)' newfile 
 ## OUTPUT
 
 
+<img width="646" height="106" alt="image" src="https://github.com/user-attachments/assets/7b07d5a3-6f72-4426-aabd-64eeabf78d4c" />
+
+
 egrep '((W|w)orld$)' newfile 
 ## OUTPUT
 
+
+<img width="646" height="149" alt="image" src="https://github.com/user-attachments/assets/823cc1f0-7aaf-4d1c-beeb-aadcd25de13d" />
 
 
 egrep '[1-9]' newfile 
 ## OUTPUT
 
 
+<img width="646" height="107" alt="image" src="https://github.com/user-attachments/assets/4231efe5-7b5e-42b8-a692-e011f903c240" />
+
 
 egrep 'Linux.*world' newfile 
 ## OUTPUT
+
+
+<img width="646" height="104" alt="image" src="https://github.com/user-attachments/assets/6c277792-62bd-412d-abc3-879e0aa18208" />
 
 
 egrep 'Linux.*World' newfile 
