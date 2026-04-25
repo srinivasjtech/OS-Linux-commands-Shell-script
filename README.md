@@ -42,26 +42,37 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+<img width="647" height="174" alt="image" src="https://github.com/user-attachments/assets/10471781-8110-455e-a522-ae03eb32ee3c" />
+
+
 ### Display the content of the files
 cat < file1
 ## OUTPUT
 
+<img width="887" height="153" alt="image" src="https://github.com/user-attachments/assets/06042f3f-1c6e-4e60-8a1b-8117f6dbbf61" />
 
 
 cat < file2
 ## OUTPUT
 
+<img width="655" height="178" alt="image" src="https://github.com/user-attachments/assets/85dace45-3ae3-44c7-b06f-88ef4b1f9d12" />
+
 
 # Comparing Files
 cmp file1 file2
 ## OUTPUT
- 
+
+ <img width="671" height="89" alt="image" src="https://github.com/user-attachments/assets/c48810e1-e349-45fb-965e-bfff304e9a00" />
+
 comm file1 file2
  ## OUTPUT
+<img width="753" height="230" alt="image" src="https://github.com/user-attachments/assets/d0757167-bb1b-4585-b9ad-e90fcb211a40" />
 
  
 diff file1 file2
 ## OUTPUT
+
+<img width="704" height="270" alt="image" src="https://github.com/user-attachments/assets/47f1af51-3f71-4afb-9e67-4a93a558208a" />
 
 
 #Filters
@@ -74,6 +85,9 @@ Hello world
 This is my world
 ^d
 ```
+<img width="683" height="108" alt="image" src="https://github.com/user-attachments/assets/6f0962a7-ee1e-4099-be89-04f38f02b7fd" />
+
+
 cat > file22
 ```
 1001 | Ram | 10000 | HR
@@ -81,6 +95,8 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+
+<img width="646" height="138" alt="image" src="https://github.com/user-attachments/assets/52b1160e-fccf-4c60-b61c-dcc1b6d8a101" />
 
 
 cut -c1-3 file11
