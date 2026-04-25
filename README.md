@@ -30,6 +30,9 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+<img width="664" height="152" alt="image" src="https://github.com/user-attachments/assets/c3584357-6304-435c-80e5-7d67ade36de7" />
+
+
 cat > file2
 ```
 anil aggarwal
