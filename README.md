@@ -698,6 +698,9 @@ chmod 755 strcomp.sh
 ## OUTPUT
 
 
+<img width="819" height="127" alt="image" src="https://github.com/user-attachments/assets/76b6c1f6-e3e0-4464-93f6-4c9504c0d976" />
+
+
 # check file ownership
 cat < psswdperm.sh 
 ```bash
@@ -711,6 +714,10 @@ fi
 ^d
 ```
 
+
+<img width="819" height="221" alt="image" src="https://github.com/user-attachments/assets/e40d15f7-d047-47dd-a7cf-f0cfabf5fd11" />
+
+
 cat psswdperm.sh 
 ```bash
 /#!/bin/bash
@@ -721,8 +728,15 @@ else
 echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
  ```
+
+
+<img width="819" height="245" alt="image" src="https://github.com/user-attachments/assets/47ab33f3-7d4b-4c87-a4eb-3f767f0f0197" />
+
+
 ./psswdperm.sh
 ## OUTPUT
+
+
 
 # check if with file location
 cat>ifnested.sh 
@@ -770,6 +784,8 @@ fi
 ./ifnested.sh 
 ## OUTPUT
 
+
+<img width="891" height="500" alt="image" src="https://github.com/user-attachments/assets/c0608a3d-b9d2-44cf-b7ae-a13e5572d23e" />
 
 
 # using numeric test comparisons
