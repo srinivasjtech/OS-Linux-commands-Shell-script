@@ -760,6 +760,10 @@ echo “Sorry, the object does not exist”
 fi
 ^d
 ```
+
+<img width="937" height="506" alt="Screenshot 2026-04-25 141824" src="https://github.com/user-attachments/assets/beb15034-fc7a-4596-96d4-efde90c8ddb9" />
+
+
 cat ifnested.sh 
 ```
 \#!/bin/bash
@@ -807,6 +811,7 @@ fi
 ^d
 ```
 
+<img width="805" height="405" alt="image" src="https://github.com/user-attachments/assets/c6a1875c-c86f-4a50-94db-4fc31b641da5" />
 
 cat iftest.sh 
 ```bash
@@ -824,6 +829,9 @@ else
 echo “The values are different”
 fi
 ```
+
+<img width="805" height="395" alt="image" src="https://github.com/user-attachments/assets/82f410af-a042-4ea6-bc82-86ffec63a490" />
+
 
 $ chmod 755 iftest.sh
  
@@ -853,6 +861,9 @@ fi
 ^d
 ```
 
+<img width="846" height="497" alt="image" src="https://github.com/user-attachments/assets/9b8bce28-5031-4bf1-8dbf-03306b4c35bc" />
+
+
 cat ifnested.sh 
 ```bash
 \#!/bin/bash
@@ -873,6 +884,9 @@ else
 echo “Sorry, the object does not exist”
 fi
 ```
+
+<img width="774" height="506" alt="image" src="https://github.com/user-attachments/assets/474c9a54-07ef-496d-9d07-139fde7479f2" />
+
 
 $ chmod 755 ifnested.sh
  
@@ -907,6 +921,8 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+<img width="843" height="112" alt="image" src="https://github.com/user-attachments/assets/9ba9494a-b7eb-4a28-961e-a488633286d1" />
+
 
 # testing compound comparisons
 cat> ifcompound.sh 
@@ -919,9 +935,16 @@ else
 echo "I cannot write to the file"
 fi
 ```
+
+<img width="843" height="256" alt="image" src="https://github.com/user-attachments/assets/3dba22bf-6060-4e53-a9b5-26eb0ec73099" />
+
+
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+
+<img width="889" height="118" alt="image" src="https://github.com/user-attachments/assets/15d4232e-6850-4c38-a2e2-a3d5dde81707" />
+
 
 # using the case command
 cat >casecheck.sh 
@@ -938,9 +961,16 @@ echo "$USER, Do not forget to log off when you're done";;
 echo "Sorry, you are not allowed here";;
 esac
 ```
+
+<img width="889" height="351" alt="image" src="https://github.com/user-attachments/assets/4c29dfb8-93bb-43f7-89cd-479a857d5642" />
+
+
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
+<img width="889" height="128" alt="image" src="https://github.com/user-attachments/assets/d05ba062-6cca-4b71-a568-dede6f840c9f" />
+
  
 cat > whiletest
 ```bash
@@ -953,10 +983,16 @@ echo $var1
 var1=$[ $var1 - 1 ]
 done
 ```
+
+<img width="793" height="271" alt="image" src="https://github.com/user-attachments/assets/f910777f-b39b-4bfb-81fc-63a5b18a47c7" />
+
+
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
- 
+
+ <img width="758" height="342" alt="image" src="https://github.com/user-attachments/assets/9395c5b1-aebd-44fa-89db-57d50ce6d51b" />
+
  
 cat untiltest.sh 
 ```bash
@@ -1009,6 +1045,9 @@ done
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
+
+<img width="837" height="231" alt="image" src="https://github.com/user-attachments/assets/cd34255a-bfb6-4c0f-84de-f8178009a06b" />
+
  
 cat forin3.sh 
 ```bash
@@ -1055,6 +1094,8 @@ Khammam
 
 ## OUTPUT
 
+<img width="713" height="96" alt="image" src="https://github.com/user-attachments/assets/195d079b-5b59-4637-925c-25f436c01bf9" />
+
 
 cat forctype.sh 
 ```bash
@@ -1068,6 +1109,9 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+
+<img width="713" height="225" alt="image" src="https://github.com/user-attachments/assets/adf17eea-c1eb-4396-9be7-1d0575e7a0f2" />
+
 
 cat forctype1.sh 
 ```bash
