@@ -1144,6 +1144,8 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+<img width="835" height="394" alt="image" src="https://github.com/user-attachments/assets/7c88b697-34ed-4e98-8a02-c170cbbf28c9" />
+
  
 cat forbreak.sh 
 ```bash
@@ -1161,11 +1163,17 @@ echo "The for loop is completed“
 ```
 ## OUTPUT
 
+<img width="858" height="350" alt="image" src="https://github.com/user-attachments/assets/c3020730-f592-48d7-8c5c-f92e172ede46" />
+
+
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
+<img width="858" height="153" alt="image" src="https://github.com/user-attachments/assets/1dd03da5-d033-47bb-b6f9-7a8a6a0e02a8" />
+
  
-cat forbreak.sh 
+cat forcontinue.sh 
 ```bash
 #!/bin/bash
 # breaking out of a for loop
@@ -1185,6 +1193,9 @@ $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+
+<img width="816" height="230" alt="image" src="https://github.com/user-attachments/assets/5f9976b5-94be-4202-bc98-7750a6db2c3e" />
+
  
 cat exread.sh 
 ```bash
@@ -1200,6 +1211,8 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+<img width="735" height="98" alt="image" src="https://github.com/user-attachments/assets/5de789a0-b7e1-42a8-83b8-bd7cf89cab9d" />
+
 
  cat exread1.sh
 ```bash
@@ -1210,12 +1223,13 @@ echo "Hello $name, welcome to my program. “
 ``` 
 $ chmod 755 exread1.sh 
 
-## OUTPUT
-
-
 
 $ ./exread1.sh 
- 
+ ## OUTPUT
+
+<img width="735" height="181" alt="image" src="https://github.com/user-attachments/assets/3d51ac85-2157-44d8-bee3-a0a2e21d7f19" />
+
+
 cat funcex.sh
 ```bash
 #!/bin/bash
@@ -1248,8 +1262,12 @@ done
 ```
 $ chmod 777 argshift.sh
 
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+
+<img width="856" height="183" alt="image" src="https://github.com/user-attachments/assets/fc09a8ed-2cba-46ac-aed9-bc7c3fd61e0b" />
+
  
  cat argshift1.sh
 ```bash
@@ -1265,8 +1283,12 @@ for (( i=0;i<$ELEMENTS;i++)); do
 done
 ```
 $ chmod 777 argshift.sh
-## OUTPUT
 $ ./argshift.sh 1 2 3
+
+## OUTPUT
+
+<img width="856" height="170" alt="image" src="https://github.com/user-attachments/assets/b10c9889-82b6-4007-9044-4ee73b84ba9f" />
+
  
 cat argshift.sh
 ```bash
@@ -1296,6 +1318,10 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+
+<img width="753" height="345" alt="image" src="https://github.com/user-attachments/assets/37343b35-92b4-4ac3-adbe-30709bff1bf4" />
+
+
 cat>data.dat
 ```bash
 bcdfghj
@@ -1309,8 +1335,15 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
+
+<img width="753" height="324" alt="image" src="https://github.com/user-attachments/assets/3992d513-6a99-45d0-b600-2e10eb56b702" />
+
+
 awk -f nc.awk data.dat
 ## OUTPUT 
+
+<img width="936" height="396" alt="Screenshot 2026-04-25 142318" src="https://github.com/user-attachments/assets/27fcd256-7255-48ec-9fe3-f22386f842cd" />
+
  
 cat > palindrome.sh
 ```bash
@@ -1338,6 +1371,8 @@ else
 fi
 ```
 ## OUTPUT 
+
+<img width="835" height="619" alt="Screenshot 2026-04-25 142336" src="https://github.com/user-attachments/assets/7f768e7a-371c-4fae-909f-afb22344efae" />
 
 
 # RESULT:
