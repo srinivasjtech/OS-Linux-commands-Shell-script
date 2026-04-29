@@ -30,6 +30,8 @@ s.n. dasgupta
 sumit chakrobarty
 ^d
 ```
+
+
 <img width="664" height="152" alt="image" src="https://github.com/user-attachments/assets/c3584357-6304-435c-80e5-7d67ade36de7" />
 
 
@@ -42,6 +44,8 @@ lalit chowdury
 s.n. dasgupta
 ^d
 ```
+
+
 <img width="647" height="174" alt="image" src="https://github.com/user-attachments/assets/10471781-8110-455e-a522-ae03eb32ee3c" />
 
 
@@ -64,8 +68,11 @@ cmp file1 file2
 
  <img width="671" height="89" alt="image" src="https://github.com/user-attachments/assets/c48810e1-e349-45fb-965e-bfff304e9a00" />
 
+
 comm file1 file2
  ## OUTPUT
+
+ 
 <img width="753" height="230" alt="image" src="https://github.com/user-attachments/assets/d0757167-bb1b-4585-b9ad-e90fcb211a40" />
 
  
@@ -85,6 +92,8 @@ Hello world
 This is my world
 ^d
 ```
+
+
 <img width="683" height="108" alt="image" src="https://github.com/user-attachments/assets/6f0962a7-ee1e-4099-be89-04f38f02b7fd" />
 
 
@@ -95,6 +104,7 @@ cat > file22
 1003 | Joe |  7000 | Developer
 ^d
 ```
+
 
 <img width="646" height="138" alt="image" src="https://github.com/user-attachments/assets/52b1160e-fccf-4c60-b61c-dcc1b6d8a101" />
 
@@ -150,8 +160,6 @@ grep hello newfile
 ## OUTPUT
 
 
-
-
 grep -v hello newfile 
 ## OUTPUT
 
@@ -177,8 +185,6 @@ cat newfile | grep -i -c "hello"
 
 grep -R ubuntu /etc
 ## OUTPUT
-
-
 
 grep -w -n world newfile   
 ## OUTPUT
@@ -210,6 +216,7 @@ Unix is predecessor
 Linux is best in this World
 ^d
  ```
+
 egrep -w 'Hello|hello' newfile 
 ## OUTPUT
 
@@ -483,6 +490,7 @@ www. mrcet.... com
 ^d
  ```
 
+
 <img width="829" height="177" alt="image" src="https://github.com/user-attachments/assets/789ce019-dafc-4fd3-99c1-434c0e6adddd" />
 
 
@@ -541,7 +549,6 @@ ls .gz
  
 gunzip backup.tar.gz
 ## OUTPUT
-
  
 # Shell Script
 ```
@@ -552,7 +559,6 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
- 
 cat << stop > herecheck.txt
 ```
 hello in this world
@@ -567,10 +573,6 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
-
-
-
-
 
 cat < scriptest.sh 
 ```bash
@@ -761,6 +763,7 @@ fi
 ^d
 ```
 
+
 <img width="937" height="506" alt="Screenshot 2026-04-25 141824" src="https://github.com/user-attachments/assets/beb15034-fc7a-4596-96d4-efde90c8ddb9" />
 
 
@@ -811,7 +814,9 @@ fi
 ^d
 ```
 
+
 <img width="805" height="405" alt="image" src="https://github.com/user-attachments/assets/c6a1875c-c86f-4a50-94db-4fc31b641da5" />
+
 
 cat iftest.sh 
 ```bash
@@ -829,6 +834,7 @@ else
 echo “The values are different”
 fi
 ```
+
 
 <img width="805" height="395" alt="image" src="https://github.com/user-attachments/assets/82f410af-a042-4ea6-bc82-86ffec63a490" />
 
@@ -861,6 +867,7 @@ fi
 ^d
 ```
 
+
 <img width="846" height="497" alt="image" src="https://github.com/user-attachments/assets/9b8bce28-5031-4bf1-8dbf-03306b4c35bc" />
 
 
@@ -884,6 +891,7 @@ else
 echo “Sorry, the object does not exist”
 fi
 ```
+
 
 <img width="774" height="506" alt="image" src="https://github.com/user-attachments/assets/474c9a54-07ef-496d-9d07-139fde7479f2" />
 
@@ -921,6 +929,7 @@ $ chmod 755 elifcheck.sh
 $ ./elifcheck.sh 
 ## OUTPUT
 
+
 <img width="843" height="112" alt="image" src="https://github.com/user-attachments/assets/9ba9494a-b7eb-4a28-961e-a488633286d1" />
 
 
@@ -943,6 +952,7 @@ $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
 
+
 <img width="889" height="118" alt="image" src="https://github.com/user-attachments/assets/15d4232e-6850-4c38-a2e2-a3d5dde81707" />
 
 
@@ -962,12 +972,14 @@ echo "Sorry, you are not allowed here";;
 esac
 ```
 
+
 <img width="889" height="351" alt="image" src="https://github.com/user-attachments/assets/4c29dfb8-93bb-43f7-89cd-479a857d5642" />
 
 
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
+
 
 <img width="889" height="128" alt="image" src="https://github.com/user-attachments/assets/d05ba062-6cca-4b71-a568-dede6f840c9f" />
 
@@ -984,12 +996,14 @@ var1=$[ $var1 - 1 ]
 done
 ```
 
+
 <img width="793" height="271" alt="image" src="https://github.com/user-attachments/assets/f910777f-b39b-4bfb-81fc-63a5b18a47c7" />
 
 
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
+
 
  <img width="758" height="342" alt="image" src="https://github.com/user-attachments/assets/9395c5b1-aebd-44fa-89db-57d50ce6d51b" />
 
@@ -1046,6 +1060,7 @@ $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
 
+
 <img width="837" height="231" alt="image" src="https://github.com/user-attachments/assets/cd34255a-bfb6-4c0f-84de-f8178009a06b" />
 
  
@@ -1094,6 +1109,7 @@ Khammam
 
 ## OUTPUT
 
+
 <img width="713" height="96" alt="image" src="https://github.com/user-attachments/assets/195d079b-5b59-4637-925c-25f436c01bf9" />
 
 
@@ -1109,6 +1125,7 @@ done
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+
 
 <img width="713" height="225" alt="image" src="https://github.com/user-attachments/assets/adf17eea-c1eb-4396-9be7-1d0575e7a0f2" />
 
@@ -1144,6 +1161,7 @@ $ chmod 755 fornested1.sh
 $ ./fornested1.sh 
  ## OUTPUT
 
+
 <img width="835" height="394" alt="image" src="https://github.com/user-attachments/assets/7c88b697-34ed-4e98-8a02-c170cbbf28c9" />
 
  
@@ -1163,12 +1181,14 @@ echo "The for loop is completed“
 ```
 ## OUTPUT
 
+
 <img width="858" height="350" alt="image" src="https://github.com/user-attachments/assets/c3020730-f592-48d7-8c5c-f92e172ede46" />
 
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
+
 
 <img width="858" height="153" alt="image" src="https://github.com/user-attachments/assets/1dd03da5-d033-47bb-b6f9-7a8a6a0e02a8" />
 
@@ -1194,6 +1214,7 @@ $ chmod 755 forcontinue.sh
 $ ./forcontinue.sh 
 ## OUTPUT
 
+
 <img width="816" height="230" alt="image" src="https://github.com/user-attachments/assets/5f9976b5-94be-4202-bc98-7750a6db2c3e" />
 
  
@@ -1211,6 +1232,7 @@ $ chmod 755 exread.sh
 $ ./exread.sh 
 ## OUTPUT
 
+
 <img width="735" height="98" alt="image" src="https://github.com/user-attachments/assets/5de789a0-b7e1-42a8-83b8-bd7cf89cab9d" />
 
 
@@ -1226,6 +1248,7 @@ $ chmod 755 exread1.sh
 
 $ ./exread1.sh 
  ## OUTPUT
+
 
 <img width="735" height="181" alt="image" src="https://github.com/user-attachments/assets/3d51ac85-2157-44d8-bee3-a0a2e21d7f19" />
 
@@ -1247,11 +1270,9 @@ fi
 ```
 ## OUTPUT
  ./funcex.sh 
-
  
  ./funcex.sh 1 2
 
- 
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1265,6 +1286,7 @@ $ chmod 777 argshift.sh
 $ ./argshift.sh 1 2 3
 
 ## OUTPUT
+
 
 <img width="856" height="183" alt="image" src="https://github.com/user-attachments/assets/fc09a8ed-2cba-46ac-aed9-bc7c3fd61e0b" />
 
@@ -1287,6 +1309,7 @@ $ ./argshift.sh 1 2 3
 
 ## OUTPUT
 
+
 <img width="856" height="170" alt="image" src="https://github.com/user-attachments/assets/b10c9889-82b6-4007-9044-4ee73b84ba9f" />
 
  
@@ -1303,7 +1326,6 @@ set +x
 ## OUTPUT
  ./argshift.sh 1 2 3
  
- 
 cat > nc.awk
 ```bash
 BEGIN{}
@@ -1318,6 +1340,7 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+
 
 <img width="753" height="345" alt="image" src="https://github.com/user-attachments/assets/37343b35-92b4-4ac3-adbe-30709bff1bf4" />
 
@@ -1336,11 +1359,13 @@ bcdfghj
 ubcdfghj
 ```
 
+
 <img width="753" height="324" alt="image" src="https://github.com/user-attachments/assets/3992d513-6a99-45d0-b600-2e10eb56b702" />
 
 
 awk -f nc.awk data.dat
 ## OUTPUT 
+
 
 <img width="936" height="396" alt="Screenshot 2026-04-25 142318" src="https://github.com/user-attachments/assets/27fcd256-7255-48ec-9fe3-f22386f842cd" />
 
@@ -1371,6 +1396,7 @@ else
 fi
 ```
 ## OUTPUT 
+
 
 <img width="835" height="619" alt="Screenshot 2026-04-25 142336" src="https://github.com/user-attachments/assets/7f768e7a-371c-4fae-909f-afb22344efae" />
 
